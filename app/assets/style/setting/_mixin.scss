@@ -1,0 +1,33 @@
+.color-linear{
+    background: linear-gradient(180deg , #09acf5, #62db54);
+    background-clip: text;
+    color:transparent;
+    -webkit-background-clip:text;
+}
+
+@keyframes btn-hover{
+    0% {background: linear-gradient(90deg , #09acf5 60%, #62db54);}
+    25% {background: linear-gradient(90deg , #09acf5 50%, #62db54);}
+    50% {background: linear-gradient(90deg , #09acf5 40%, #62db54);}
+    75% {background: linear-gradient(90deg , #09acf5 30%, #62db54);}
+    100% {background: linear-gradient(90deg , #09acf5 20%, #62db54);}
+}
+.btn-linear{
+    background: linear-gradient(90deg , #09acf5, #62db54);
+     &:hover{
+        animation:btn-hover 400ms linear 0s 1 alternate;
+        animation-fill-mode: backwards;      
+     }
+}
+
+.btn-outline-hover{
+    display: block;
+    font-size: 1.125rem;
+    padding: 1rem;
+    border: 1px solid $gray-100;
+    border-radius: 0.5rem;
+    &:hover{
+        border: 1px solid $primary !important;
+        color: $primary !important;
+    }   
+}

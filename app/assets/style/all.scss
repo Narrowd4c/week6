@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap');
 @import "../../../node_modules/bootstrap/scss/functions";
 @import "./helpers/variables";
+@import "./helpers/utilities";
 @import "../../../node_modules/bootstrap/scss/bootstrap";
-
-
-@import './layout/index.scss'
+@import "./setting/base.scss";
+@import "./setting/mixin.scss";
+@import "./setting/utility.scss";
+@import "./layout/layout.scss";
+@import './page/index.scss';
