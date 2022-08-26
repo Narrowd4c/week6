@@ -14786,6 +14786,15 @@ ul {
   font-size: 1.125rem;
 }
 
+.overflow-x-scroll {
+  overflow-x: scroll;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.overflow-x-scroll::-webkit-scrollbar { /* Chrome, Safari and Opera */
+  display: none;
+}
+
 @media (min-width: 992px) {
   .fs-xl-title {
     font-size: 3rem !important;
