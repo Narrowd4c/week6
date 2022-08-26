@@ -7,6 +7,9 @@ let course = new Swiper(".course-swiper", {
   spaceBetween: 0,
   loop: true,
 });
+let swiper = new Swiper(".swiper", {
+  slidesPerView: 6,
+});
 let avatar = new Swiper(".recommend-avatar", {
   loop: true,
   effect: "fade",

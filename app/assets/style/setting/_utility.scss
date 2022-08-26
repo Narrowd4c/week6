@@ -4,6 +4,15 @@
 .fs-base{
     font-size: 1.125rem;
 }
+.overflow-x-scroll{
+    overflow-x: scroll;
+    // Hide scrollbar
+    -ms-overflow-style: none;   /* IE and Edge */
+    scrollbar-width: none;      /* Firefox */
+    &::-webkit-scrollbar {      /* Chrome, Safari and Opera */
+        display: none;
+}
+}
 @include media-breakpoint-up(lg){
     .fs-xl-title{
         font-size: 3rem !important ;
