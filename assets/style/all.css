@@ -14890,7 +14890,7 @@ header::after {
   background: #1C1C1C;
 }
 .banner-bg {
-  background: url("../../../assets/images/bg_home_mobile.jpg") left/cover no-repeat;
+  background: url("../images/bg_home_mobile.jpg") left/cover no-repeat;
   width: 100%;
   height: 336px;
 }
@@ -14913,7 +14913,7 @@ header::after {
     height: calc(100vh - 90px);
   }
   .banner-bg {
-    background: url("../../../assets/images/bg_home.jpg") center/cover no-repeat;
+    background: url("../images/bg_home.jpg") center/cover no-repeat;
     width: 100%;
     height: 534px;
   }
