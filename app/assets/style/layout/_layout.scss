@@ -24,11 +24,8 @@ header{
   }
 }
   .modal{
-  &-body{
-    width: 336px;
     label{
       margin-bottom: 6px;
-    }
     }
   }
 
@@ -55,3 +52,6 @@ header{
     position: absolute;
     left: 2rem;
   }
+.bg-footer{
+  background: #1A1A1A;
+}
