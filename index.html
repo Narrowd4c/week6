@@ -7,21 +7,23 @@
     <title>Coding Home</title>
     <link rel="shortcut icon" href="./assets/images/logo2.svg">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vanillajs-datepicker@1.2.0/dist/css/datepicker.min.css">
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="./assets/style/all.css">
   </head>
 
   <body>
-    <header class="header-border">
-        <div class="container p-lg-0">
+    <header class="header-border bg-gray">
+        <div class="container">
           <div class="d-flex justify-content-between align-items-center py-6 position-relative">
           <a href="./index.html">
             <img src="./assets/images/logo.svg" alt="#" class="logo d-none d-md-block">
             <img src="./assets/images/logo2.svg" alt="#" class="logo d-md-none">
             <h1 class="visually-hidden">Coding Home</h1>
           </a>
-          <a id="menu-button"><span class="material-icons text-primary col-1 d-sm-none" >drag_handle</span></a>
+          <a id="menu-button" href="#"><span class="material-icons text-primary col-1 d-sm-none" >drag_handle</span></a>
           <ul id="menu-mobile" class="list-unstyled bg-gray menu-mobile mx-n3 text-center z-index vw-100 d-none d-sm-none">
             <li class="mt-6"><a href="./index.html" class="d-block ">首頁</a></li>
             <li class="mt-6"><a href="./course.html" class="d-block ">課程介紹</a></li>
@@ -29,16 +31,16 @@
           </ul>
           <div class="modal fade" id="LoginModal" tabindex="-1" aria-labelledby="LoginModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content bg-gray p-6  position-relative border border-light">
+                <div class="modal-content bg-gray p-6  position-relative border border-light rounded-0">
                     <button type="button" class="btn-close position-absolute pe-6 end-0 mt-n2 mt-sm-0" data-bs-dismiss="modal" aria-label="Close"></button>
-                    <div class="modal-body mx-auto mb-8 p-0">
+                    <div class="modal-body w-75 mx-auto mb-8 p-0">
                         <h3 class="text-center mb-sm-8 mb-6 pt-4 pt-sm-0 fs-4">登入</h3>
                         <form action="#" class="d-flex flex-column fs-6 mb-12">
                           <label for="login" >信箱</label>
-                          <input type="email" name="email" id="login" placeholder="請輸入信箱" class="border border-light py-2 ps-4 bg-dark mb-6 rounded-1">
+                          <input type="email" name="email" id="login" placeholder="請輸入信箱" class="text-white bg-dark border border-light  py-2 ps-4 mb-6 rounded-1 text-white">
                           <label for="password">密碼</label>
-                          <input type="password" name="password" id="password" placeholder="請輸入密碼" class="border border-light py-2 ps-4 bg-dark mb-6 rounded-1">
-                          <input type="button" value="登入" class="btn btn-linear d-block py-2 px-8 fs-base ">
+                          <input type="password" name="password" id="password" placeholder="請輸入密碼" class="text-white border border-light py-2 ps-4 bg-dark mb-6 rounded-1">
+                          <input type="button" value="登入" class="btn btn-linear d-block py-2 px-8 fs-base">
                         </form>
                         <h3 class="login-option fs-6 mb-4">其他登入方式</h3>
                         <a href="#" class="btn btn-outline-light  py-2 d-block position-relative mb-6 "><img src="./assets/images/icon_fb.svg" alt="facebook" class="login-icon">Facebook 登入</a>
@@ -55,21 +57,22 @@
           </div>
         </div>
     </header>
-      <div class="bg-dark d-flex align-items-center vh100">
-<div class="container-xxl banner">
-    <div class="banner-bg row d-flex justify-content-center align-items-center mx-auto">
-        <div class="col-xl-6 col-sm-8 banner-content position-relative border text-center py-8 px-3 bg-dark" data-aos="zoom-out">
-            <div class="square position-absolute top-0 start-0 translate-middle"></div>
-            <div class="square position-absolute top-0 start-100 translate-middle"></div>
-            <div class="square position-absolute top-100 start-0 translate-middle"></div>
-            <div class="square position-absolute top-100 start-100 translate-middle"></div>
+      <div class="d-flex align-items-center banner-bg vh100">
+<div class="container-xxl">
+    <div class="row d-flex justify-content-center align-items-center mx-auto">
+        <div class="col-xl-6 banner-content position-relative border text-center py-8 px-3 bg-dark" data-aos="zoom-out">
+            <div class="border-square position-absolute top-0 start-0 translate-middle"></div>
+            <div class="border-square position-absolute top-0 start-100 translate-middle"></div>
+            <div class="border-square position-absolute top-100 start-0 translate-middle"></div>
+            <div class="border-square position-absolute top-100 start-100 translate-middle"></div>
             <h2 class="banner-title fs-3 fs-xl-title">全台最豐富的程式家教</h2>
             <h2 class="fs-3 mb-4 fs-xl-title">在實踐中化理想為現實</h2>
-            <p class="text-center fs-7 fs-xl-base">全台最專業師資｜到府程式家教｜客製化課程</p>
+            <p class="text-center fs-7 fs-xl-base m-0">全台最專業師資｜到府程式家教｜客製化課程</p>
         </div>
     </div>  
 </div>
 </div>
+<div class="bg-gray">
 <div class="container">
     <ul class="feature_card row align-items-center text-center py-10 py-lg-20 row-gap-6">
         <li class="col-lg-3 col-md-6 bg-gray text-lg-start">
@@ -95,7 +98,7 @@
         </li>
         <li class="col-lg-3 col-md-6 ">
             <div class="card py-12 card-bg">
-                <span class="material-icons color-linear feature_card-icon">code</span>
+                <span class="material-icons color-linear feature_card-icon">place</span>
                 <div class="card-body p-0">
                     <h3 class="card-title fs-6 fw-bold py-2">指定地點</h3>
                     <p class="card-text">專業老師到你指定的地點<br>一對一高效學習</p>
@@ -105,8 +108,9 @@
     </ul>
     
 </div>
+</div>
 
-<div class="bg-dark">
+
     <div class="container py-10 py-lg-20 ">
         <h2 class="fs-3 lh-sm bar text-center mb-12 mx-n3" data-aos="zoom-in">預期上課流程</h2>
         <ul class="row row-gap-12">
@@ -141,16 +145,16 @@
                 <div class="card p-12 pe-lg-0 ps-lg-6 border rounded-3 bg-dark position-relative">
                         <div class="position-absolute top-0 translate-middle-y text-primary display-6 fw-bold bg-dark px-2 z-index ms-n2">04</div>
                         <div class="card-body p-0 pe-2">
-                            <h3 class="fs-3 card-title mb-4">提供滿意度</h3>
+                            <h3 class="fs-4 card-title mb-4">提供滿意度</h3>
                             <div class="card-text">提供課程滿意度及回饋<br>讓我們持續成長與進步</div>
                         </div>
                 </div>
             </li>
         </ul>
     </div>
-</div>
 
-<div class="container-fuild py-10 py-lg-20 px-3">
+
+<div class="container-fuild py-10 py-lg-20 px-3 bg-gray">
     <h2 class="fs-3 lh-sm bar text-center mb-12 mx-n3" data-aos="zoom-in">你想要學習的程式，都在這裡</h2>
     <div class="swiper course-swiper">
     <ul class="swiper-wrapper d-flex text-center gap-4 | course">
@@ -170,70 +174,70 @@
     </div>
 </div>
 
-<div class="bg-dark">
+
     <div class="container py-10 py-lg-20">
         <h2 class="fs-3 lh-sm bar text-center mb-12 mx-n3" data-aos="zoom-in">熱門推薦課程</h2>
         <ul class="row row-gap-4 mb-12">
             <li class="col-xl-3 col-md-6">
-                <a href="#" class="popular_card bg-gray">
-                    <div class="popular_card-header text-center py-6">
-                        <img src="./assets/images/teacher01.jpg" alt="teacher01" class="popular_card-img mb-2">
+                <a href="#" class="course_card bg-gray">
+                    <div class="course_card-header text-center py-6">
+                        <img src="./assets/images/teacher01.jpg" alt="teacher01" class="course_card-img mb-2">
                         <p class="fs-6">Belinda</p>
                     </div>
-                    <div class="popular_card-body">
-                        <h4 class="popular_card-title mb-2 h5">基礎前端 - HTML</h4>
-                        <h5 class="popular_card-subtitle h6 text-primary">前端語言</h5>
-                        <p class="popular_card-text fs-6">帶領無基礎的平民老百姓，從最基礎的 HTML 語法出發，使用最淺顯易懂的語言與生活隨處可見的例子...</p>
+                    <div class="course_card-body">
+                        <h4 class="course_card-title mb-2 h5">基礎前端 - HTML</h4>
+                        <h5 class="course_card-subtitle h6 text-primary">前端語言</h5>
+                        <p class="course_card-text fs-6">帶領無基礎的平民老百姓，從最基礎的 HTML 語法出發，使用最淺顯易懂的語言與生活隨處可見的例子...</p>
                     </div>
-                    <div class="popular_card-footer d-flex align-items-center py-4">
+                    <div class="course_card-footer d-flex align-items-center py-4">
                        <span class="fs-6 me-2">50分鐘</span><p class="h2">NT$1600</p>
                     </div>
                 </a>
             </li>
             <li class="col-xl-3 col-md-6">
-                <a href="#" class="popular_card bg-gray">
-                    <div class="popular_card-header text-center py-6">
-                        <img src="./assets/images/teacher02.jpg" alt="teacher02" class="popular_card-img mb-2">
+                <a href="#" class="course_card bg-gray">
+                    <div class="course_card-header text-center py-6">
+                        <img src="./assets/images/teacher02.jpg" alt="teacher02" class="course_card-img mb-2">
                         <p class="fs-6">Guava</p>
                     </div>
-                    <div class="popular_card-body">
-                        <h4 class="popular_card-title mb-2 h5">2022 Python 全攻略｜從入門到實務</h4>
-                        <h5 class="popular_card-subtitle h6 text-primary">後端語言</h5>
-                        <p class="popular_card-text fs-6">Python支援多種程式設計範式，包括函數式、指令式、反射式、結構化和物件導向程式設計，它擁有動態...</p>
+                    <div class="course_card-body">
+                        <h4 class="course_card-title mb-2 h5">2022 Python 全攻略｜從入門到實務</h4>
+                        <h5 class="course_card-subtitle h6 text-primary">後端語言</h5>
+                        <p class="course_card-text fs-6">Python支援多種程式設計範式，包括函數式、指令式、反射式、結構化和物件導向程式設計，它擁有動態...</p>
                     </div>
-                    <div class="popular_card-footer d-flex align-items-center py-4">
+                    <div class="course_card-footer d-flex align-items-center py-4">
                        <span class="fs-6 me-2">50分鐘</span><p class="h2">NT$2200</p>
                     </div>
                 </a>
             </li>
            <li class="col-xl-3 col-md-6">
-                <a href="#" class="popular_card bg-gray">
-                    <div class="popular_card-header text-center py-6">
-                        <img src="./assets/images/teacher03.jpg" alt="teacher03" class="popular_card-img mb-2">
+                <a href="#" class="course_card bg-gray">
+                    <div class="course_card-header text-center py-6">
+                        <img src="./assets/images/teacher03.jpg" alt="teacher03" class="course_card-img mb-2">
                        <p class="fs-6">Joe</p>
                     </div>
-                    <div class="popular_card-body">
-                        <h4 class="popular_card-title h5 mb-2">活用 Line Bot ｜APP 開發到上架完整實戰攻略</h4>
-                        <h5 class="popular_card-subtitle h6 text-primary">行動應用開發</h5>
-                        <p class="popular_card-text fs-6">Line Bot 可用於實用的目的，如客戶服務或資訊獲取，有些聊天機器人會搭載自然語言處理系統，但大多簡...</p>
+                    <div class="course_card-body">
+                        <h4 class="course_card-title h5 mb-2">活用 Line Bot ｜APP 開發到上架完整實戰攻略</h4>
+                        <h5 class="course_card-subtitle h6 text-primary">行動應用開發</h5>
+                        <p class="course_card-text fs-6">Line Bot 可用於實用的目的，如客戶服務或資訊獲取，有些聊天機器人會搭載自然語言處理系統，但大多簡...</p>
                     </div>
-                    <div class="popular_card-footer d-flex align-items-center py-4">
+                    <div class="course_card-footer d-flex align-items-center py-4">
                        <span class="fs-6 me-2">50分鐘</span><p class="h2">NT$1800</p>
                     </div>
                 </a>
             </li>
             <li class="col-xl-3 col-md-6">
-                <a href="#" class="popular_card bg-gray">
-                    <div class="popular_card-header text-center py-6">
-                        <img src="./assets/images/teacher04.jpg" alt="teacher04" class="popular_card-img mb-2">
+                <a href="#" class="course_card bg-gray">
+                    <div class="course_card-header text-center py-6">
+                        <img src="./assets/images/teacher04.jpg" alt="teacher04" class="course_card-img mb-2">
                         <p class="fs-6">Lina</p>
                     </div>
-                    <div class="popular_card-body ">
-                        <h4 class="popular_card-title mb-2 h5">Linux 零基礎七天入門｜入門到實務</h4>
-                        <h5 class="popular_card-subtitle h6 text-primary">作業系統與伺服器</h5>
-                        <p class="popular_card-text fs-6">Linux是一種自由和開放原始碼的類UNIX作業系統，作業系統中包含了許多使用者圖形介面和其他實用...</p>
+                    <div class="course_card-body ">
+                        <h4 class="course_card-title mb-2 h5">Linux 零基礎七天入門｜入門到實務</h4>
+                        <h5 class="course_card-subtitle h6 text-primary">作業系統與伺服器</h5>
+                        <p class="course_card-text fs-6">Linux是一種自由和開放原始碼的類UNIX作業系統，作業系統中包含了許多使用者圖形介面和其他實用...</p>
                     </div>
-                    <div class="popular_card-footer d-flex align-items-center py-4">
+                    <div class="course_card-footer d-flex align-items-center py-4">
                        <span class="fs-6 me-2">50分鐘</span><p class="h2">NT$1100</p>
                     </div>
                 </a>
@@ -242,7 +246,7 @@
         <button class="btn btn-linear mx-auto d-block py-2 px-8">所有課程列表</button>
     </div>
     
-</div>
+
 
 <div class="container-fuild">
     <ul class="d-flex flex-wrap">
@@ -269,7 +273,7 @@
     </ul>
 </div>
 
-<div class="bg-dark">
+
     <div class="container py-lg-20 py-10">
         <h2 class="fs-3 lh-sm bar text-center mb-12 mx-n3" data-aos="zoom-in">文章內容</h2>
         <ul class="row row row-gap-6 article-list pt-8">
@@ -317,7 +321,7 @@
             </li>
         </ul>
     </div>
-</div>
+
 
 <div class="bg-black">
     <div class="container recommend-banner py-lg-20 py-10">
@@ -405,11 +409,14 @@
 </div>
 
 
-    <footer class="text-center text-secondary py-4 py-sm-6">
+    <footer class="text-center text-secondary py-4 py-sm-6 bg-footer  ">
       <p class="fs-7 fs-sm-6 m-0">Coding Home © 2022 All Rights Reserved</p>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/vanillajs-datepicker@1.2.0/dist/js/datepicker-full.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanillajs-datepicker@1.2.0/dist/js/locales/zh-CN.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
     <script src="./assets/js/vendors.js"></script>
     <script src="./assets/js/all.js"></script>
   </body>

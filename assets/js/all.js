@@ -42,6 +42,15 @@ AOS.init({
 });
 "use strict";
 
+if (document.querySelector('#date')) {
+  var date = document.querySelector('#date');
+  var datepicker = new Datepicker(date, {
+    autohide: true,
+    language: 'zh-TW'
+  });
+}
+"use strict";
+
 var course = new Swiper(".course-swiper", {
   slidesPerView: 8,
   spaceBetween: 10,
