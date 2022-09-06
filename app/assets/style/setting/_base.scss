@@ -8,13 +8,6 @@ ul{
     list-style: none;
     padding-left: 0;
 }
-
 input::placeholder{
     color: $gray-100;
-}
-.ol{
-    outline: 1px solid red;
-}
-.ms-1px{
-    margin-left: 1px;
 }
