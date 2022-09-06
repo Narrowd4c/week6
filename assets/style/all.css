@@ -14949,6 +14949,34 @@ ul {
   padding-left: 0;
 }
 
+input::-webkit-input-placeholder {
+  color: #C1C1C1;
+}
+
+input::-moz-placeholder {
+  color: #C1C1C1;
+}
+
+input:-ms-input-placeholder {
+  color: #C1C1C1;
+}
+
+input::-ms-input-placeholder {
+  color: #C1C1C1;
+}
+
+input::placeholder {
+  color: #C1C1C1;
+}
+
+.ol {
+  outline: 1px solid red;
+}
+
+.ms-1px {
+  margin-left: 1px;
+}
+
 .color-linear {
   background: -webkit-gradient(linear, left top, left bottom, from(#09acf5), to(#62db54));
   background: -o-linear-gradient(top, #09acf5, #62db54);
