@@ -4,7 +4,11 @@
     color:transparent;
     -webkit-background-clip:text;
 }
-
+.border-square{
+    width: 10px;
+    height: 10px;
+    background: #fff;
+}
 @keyframes btn-hover{
     0% {background: linear-gradient(90deg , #09acf5 60%, #62db54);}
     25% {background: linear-gradient(90deg , #09acf5 50%, #62db54);}
@@ -19,7 +23,9 @@
         animation-fill-mode: backwards;      
      }
 }
-
+.btn-linear-column{
+    background: linear-gradient(180deg , #09acf5, #62db54); 
+}
 .btn-outline-hover{
     display: block;
     font-size: 1.125rem;

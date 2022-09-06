@@ -7,7 +7,7 @@
 
 // scss-docs-start gray-color-variables
 $white:    #fff !default;
-$gray-100: #f8f9fa !default;
+$gray-100: #C1C1C1 !default; //#f8f9fa
 $gray-200: #e9ecef !default;
 $gray-300: #dee2e6 !default;
 $gray-400: #ced4da !default;
@@ -286,7 +286,7 @@ $position-values: (
 //
 // Settings for the `<body>` element.
 
-$body-bg:                  #2D2D2D !default; 
+$body-bg:                   #1C1C1C !default; 
 $body-color:                $white !default;
 $body-text-align:           null !default;
 
@@ -308,7 +308,7 @@ $stretched-link-z-index:                  1 !default;
 //
 // Style p element.
 
-$paragraph-margin-bottom:   1rem !default;
+$paragraph-margin-bottom:   1rem !default; //1rem
 
 
 // Grid breakpoints

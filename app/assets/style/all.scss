@@ -2,9 +2,15 @@
 @import "../../../node_modules/bootstrap/scss/functions";
 @import "./helpers/variables";
 @import "./helpers/utilities";
+@import '../../../node_modules/vanillajs-datepicker/sass/datepicker-bs5';
 @import "../../../node_modules/bootstrap/scss/bootstrap";
 @import "./setting/base.scss";
-@import "./setting/mixin.scss";
+@import "./setting/component";
 @import "./setting/utility.scss";
 @import "./layout/layout.scss";
 @import './page/index.scss';
+@import './page/class-detail.scss';
+@import "./page/checkout.scss";
+@import "./page/checkout-pay.scss";
+@import "./page/checkout-done.scss";
+

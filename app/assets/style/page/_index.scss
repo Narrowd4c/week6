@@ -17,12 +17,6 @@
     &-bg{
         background: url("../images/bg_home_mobile.jpg") center/cover no-repeat;
         width: 100%;
-        
-        .square{
-            width: 10px;
-            height: 10px;
-            background: #fff;
-        }
     }
     &-title{
         background:linear-gradient(to bottom , #09ACF5, #62DB54 );
@@ -34,6 +28,7 @@
        margin: 84px 0px;
     }
 }
+
 
 @include media-breakpoint-up(sm){
     .banner{
@@ -70,7 +65,7 @@
 .course>*{
     min-width: 136px;
 }
-.popular_card{
+.course_card{
    display: block;
    border-radius: 20px;
     &-img{

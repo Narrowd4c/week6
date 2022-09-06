@@ -1,6 +1,12 @@
 .z-index{
     z-index: 100;
 }
+.lh-0{
+    line-height: 0;
+}
+.text-hover>*:hover{
+    color: $primary;
+}
 .fs-base{
     font-size: 1.125rem;
 }
@@ -19,5 +25,10 @@
     }
     .fs-xl-base{
         font-size: 1.125rem !important;
+    }
+}
+@include media-breakpoint-up(md){
+    .text-md-left{
+        text-align: left;
     }
 }

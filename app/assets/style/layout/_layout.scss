@@ -2,6 +2,9 @@
     height: 24px;
 }
 
+input:focus-visible{
+  outline: none;
+}
 header{
   position: relative;  
   &::after{

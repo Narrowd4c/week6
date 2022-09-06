@@ -1,0 +1,95 @@
+---
+title: 課程報名
+layout: ./app/layout.ejs
+engine: ejs
+---
+<div class="bg-black pb-36">
+<div class="container">
+    <div class="row justify-content-center mt-6">
+      <div class="col-9 col-md-7 timeline">
+      </div>
+    </div>
+    <div class="row mb-12">
+      <div class="col-3 col-md-5">
+        <div class="timeline-pointer text-center step-1 active">
+          <p>課程報名</p>
+        </div>
+      </div>
+      <div class="col-6 col-md-2">
+        <div class="timeline-pointer text-center step-2">
+          <p>信用卡付款</p>
+        </div>
+      </div>
+      <div class="col-3 col-md-5">
+        <div class="timeline-pointer text-center step-3">
+          <p>付款成功</p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="row align-items-center ">
+        <div class="col-lg-4 mb-10 mb-lg-0">
+            <div class="bg-gray text-center py-md-6 position-relative">
+                <div class="bg-gray position-absolute | trangle "></div>
+                <div class="course_card-header">
+                            <img src="./assets/images/teacher01.jpg" alt="teacher01" class="course_card-img mb-2">
+                            <p class="fs-6">Belinda</p>
+                </div>
+                <div class="course_card-body">
+                    <h4 class="h5 mb-1">基礎前端 - HTML</h4>
+                    <h5 class="course_card-subtitle h6 text-primary">前端語言</h5>
+                    <p class="course_card-text fs-6 text-start mb-0">帶領無基礎的平民老百姓，從最基礎的 HTML 語法出發，使用最淺顯易懂的語言與生活隨處可見的例子...</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-8 ">
+            <div class="checkout bg-dark">
+               <h2 class="text-center fs-4 mb-12">課程報名 </h2>
+               <h3 class="fs-base mb-2">選擇付款方式</h3>
+               <ul class="row row-gap-2 mb-8">
+                    <li class="col-6 col-md-auto"><button class="btn fs-6 px-4 px-xxl-8 w-100 | btn-outline-hover">信用卡付款</button></li>
+                    <li class="col-6 col-md-auto"><button class="btn fs-6 px-4 px-xxl-8 w-100 | btn-outline-hover">超商繳款</button></li>
+                    <li class="col-6 col-md-auto"><button class="btn fs-6 px-4 px-xxl-8 w-100 | btn-outline-hover">ATM轉帳</button></li>
+                    <li class="col-6 col-md-auto"><button class="btn fs-6 px-4 px-xxl-8 w-100 | btn-outline-hover">12期分期付款</button></li>
+               </ul>
+               <h3 class="fs-base mb-4 mb-lg-6 text-center text-md-left">訂單資訊</h3>
+                <form action="#" class="row row-gap-4 row-gap-md-6">
+                    <div class="col-md-6 pe-lg-12">
+                        <label for="name" class="form-label">姓名</label>
+                        <input type="text" class="form-control bg-dark" id="name" placeholder="請輸入姓名">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="tel" class="form-label">電話</label>
+                        <input type="tel" class="form-control bg-dark" id="tel" placeholder="請輸入電話號碼">
+                    </div>
+                    <div class="col-12">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control bg-dark" id="email" placeholder="請輸入Email">
+                    </div>
+                    <div class="col-md-6 pe-lg-12">
+                        <label for="#" class="form-label">課程</label>
+                        <select class="form-select bg-dark" aria-label="Default select example" >
+                            <option value="1">1堂50分鐘</option>
+                            <option value="2">3堂50分鐘</option>
+                            <option value="1600"selected>10堂50分鐘</option>
+                            <option value="3">20堂50分鐘</option>
+                        </select>
+                    </div>
+                     <div class="col-md-6">
+                        <label for="datepicker" class="form-label">想預約的日期</label>
+                        <input type="text" class="form-control bg-dark" id="date" name="datepicker" placeholder="請選擇日期">
+                    </div>
+                    <div class="col-12">
+                        <label for="place" class="form-label">上課地點</label>
+                        <input type="text" class="form-control bg-dark" id="place" placeholder="請輸入上課地點">
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between ">
+                      <p class="fs-base align-self-md-center mb-md-0">NT$1600</p>
+                      <input type="button" class=" btn px-lg-12  | btn-linear" value="前往結賬" onclick="javascript:location.href='./checkout-pay.html'">
+                </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
