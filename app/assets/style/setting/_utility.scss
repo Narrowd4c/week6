@@ -29,6 +29,6 @@
 }
 @include media-breakpoint-up(md){
     .text-md-left{
-        text-align: left;
+        text-align: left !important;
     }
 }

@@ -38,10 +38,12 @@
       font-family: "Material Icons";
     }
     &.step-2::before {
-      content: '2';
+      content: 'done';
+      font-family: "Material Icons";
     }
     &.step-3::before {
-      content: '3';
+      content: 'done';
+      font-family: "Material Icons";
     }
     &.active {
       color: $primary;
