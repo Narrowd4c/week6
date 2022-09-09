@@ -14969,14 +14969,6 @@ input::placeholder {
   color: #C1C1C1;
 }
 
-.ol {
-  outline: 1px solid red;
-}
-
-.ms-1px {
-  margin-left: 1px;
-}
-
 .color-linear {
   background: -webkit-gradient(linear, left top, left bottom, from(#09acf5), to(#62db54));
   background: -o-linear-gradient(top, #09acf5, #62db54);
@@ -15107,7 +15099,7 @@ input::placeholder {
 }
 @media (min-width: 768px) {
   .text-md-left {
-    text-align: left;
+    text-align: left !important;
   }
 }
 .logo {
@@ -15210,6 +15202,9 @@ header::after {
 }
 .banner-content {
   margin: 84px 0px;
+}
+.banner-vh {
+  height: calc(100vh - 90px);
 }
 
 @media (min-width: 576px) {
@@ -15713,10 +15708,12 @@ header::after {
   font-family: "Material Icons";
 }
 .done-pointer.step-2::before {
-  content: "2";
+  content: "done";
+  font-family: "Material Icons";
 }
 .done-pointer.step-3::before {
-  content: "3";
+  content: "done";
+  font-family: "Material Icons";
 }
 .done-pointer.active {
   color: #62DB54;
